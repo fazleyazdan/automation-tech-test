@@ -1,6 +1,6 @@
 ## Project Setup
 
-1) Download & install nodejs
+1) Download & install NodeJS
 
 2) Download & install visual studio code (VSCode)
 
