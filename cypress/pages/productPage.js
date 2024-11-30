@@ -22,11 +22,11 @@ class Product
         cy.get("#checkout").click()
     }
 
-    enterUserInfo()
+    enterUserInfo(firstName,lastName,postalcode)
     {
-        cy.get("#first-name").type("fazle")
-        cy.get("#last-name").type("yazdan")
-        cy.get("#postal-code").type("44000")      
+        cy.get("#first-name").type(firstName)
+        cy.get("#last-name").type(lastName)
+        cy.get("#postal-code").type(postalcode)      
     }
 
     continueBtn()
