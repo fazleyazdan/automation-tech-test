@@ -1,25 +1,15 @@
 class login
 
 {
-    visitApp()
+
+    loginToApp(username,password)
     {
         cy.visit("https://www.saucedemo.com")
-    }
-
-    enterUsername(username)
-    {
         cy.get("#user-name").click().type(username)
-    }
-
-    enterPassword(password)
-    {
         cy.get("#password").type(password)
+        cy.get("#login-button").click()
     }
 
-    loginBtn()
-    {
-        return cy.get("#login-button")
-    }
 }
 
 export default login
