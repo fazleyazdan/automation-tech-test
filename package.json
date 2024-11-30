@@ -1,0 +1,30 @@
+{
+  "name": "automation-tech-test",
+  "version": "1.0.0",
+  "description": "Automate the end to end flow of purchasing any product",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fazleyazdan/automation-tech-test.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "fazleyazdan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fazleyazdan/automation-tech-test/issues"
+  },
+  "homepage": "https://github.com/fazleyazdan/automation-tech-test#readme",
+  "dependencies": {
+    "cypress": "^13.16.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-xpath": "^2.0.1",
+    "dotenv": "^16.4.5"
+  }
+}
