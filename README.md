@@ -4,18 +4,17 @@
 
 2) Download & install visual studio code (VSCode)
 
-3) create a new folder for project & open in VSCode
+3) Create a new folder for project & open in VSCode
 
 4) To create package.json file run this command `npm -i init`
 
 5) Install cypress `npm install cypress -- save --dev`
 
-6) start cypress
+6) Start cypress:  `npx cypress open`    (or)   `node_modules/.bin/cypress open`
 
-`npx cypress open`       (or)
-`node_modules/.bin/cypress open`
 
 ## How to run Tests:
+
 
 **Headed mode :** 
 * To run cypress in UI enter command `npx cypress open`
@@ -32,12 +31,12 @@
 
 ## TODO: Automation of things
 
-* automate wether filters are working fine on product page
-* remove products from cart
-* add multiple products to the cart and then validate specific product wether it is added to cart or not.
+* Automate wether filters are working fine on product page
+* Remove products from cart & then validate wether they are removed from cart or not
+* Add multiple products to the cart and then validate specific product wether it is added to cart or not.
 * logout from the app
 * "Reset the App" functionality to validate its functionality
 
 ## Test Report:
-* i have included the test report as well for an overview
+* I have included the test report as well for an overview
 * `cypress\reports\html\index.html`
