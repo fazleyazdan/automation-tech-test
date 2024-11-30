@@ -9,7 +9,7 @@ describe("QA Automation Tech Test Suit", ()=> {
     const loginObj = new Login()
     const productObj = new Product()
 
-    // used before all hooks in case there are multiple cases in future
+    // used before all hooks in case there are multiple test cases in future and all of them require login
     before('launch app',()=>{
         
         // login to the app
