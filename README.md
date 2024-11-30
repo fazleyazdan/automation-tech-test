@@ -6,12 +6,9 @@
 
 3) create a new folder for project & open in VSCode
 
-4) open cmd/terminal then execute below command
+4) To create package.json file run this command `npm -i init`
 
-npm -i init --> creates package.json file
-
-5) Install cypress
-npm install cypress -- save --dev
+5) Install cypress `npm install cypress -- save --dev`
 
 6) start cypress
 
