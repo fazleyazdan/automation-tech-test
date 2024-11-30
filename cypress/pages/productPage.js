@@ -4,6 +4,7 @@ class Product
     selectTShirt(shirtName)
     {
         return cy.xpath(`//div[normalize-space()="${shirtName}"]`)
+        // here i have parameterized the xpath for dynamic behavior.
     }
 
     addToCart()
