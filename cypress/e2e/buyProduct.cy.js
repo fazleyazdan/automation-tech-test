@@ -1,23 +1,19 @@
 import Login from '../pages/loginPage'
 import Product from '../pages/productPage'
 
-describe("QA Automation Tech Test Suit", ()=> {
 
+describe("QA Automation Tech Test Suit", ()=> {
 
 
     // make objects of pages
     const loginObj = new Login()
     const productObj = new Product()
-    
+
+    // used before all hooks in case there are multiple cases in future
     before('launch app',()=>{
         
-        // navigate to web
-        loginObj.visitApp()
-
         // login to the app
-        loginObj.enterUsername("standard_user")
-        loginObj.enterPassword("secret_sauce")
-        loginObj.loginBtn().click()
+        loginObj.loginToApp("standard_user","secret_sauce")
     })
 
     it("Purchase product", ()=>{
