@@ -4,7 +4,7 @@
 
 2) Download & install visual studio code (VSCode)
 
-3) Create a new folder for project & open in VSCode
+3) Create a new folder for project & open it in VSCode
 
 4) To create package.json file run this command `npm -i init`
 
