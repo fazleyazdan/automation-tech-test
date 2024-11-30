@@ -1,10 +1,10 @@
 ## Project Setup
 
-1) Download & install nodejs
+1) Download & install NodeJS
 
 2) Download & install visual studio code (VSCode)
 
-3) Create a new folder for project & open in VSCode
+3) Create a new folder for project & open it in VSCode
 
 4) To create package.json file run this command `npm -i init`
 
@@ -31,11 +31,11 @@
 
 ## TODO: Automation of things
 
-* Automate wether filters are working fine on product page
-* Remove products from cart & then validate wether they are removed from cart or not
-* Add multiple products to the cart and then validate specific product wether it is added to cart or not.
-* logout from the app
-* "Reset the App" functionality to validate its functionality
+* Automate whether filters are working fine on product page
+* Remove products from cart & then validate whether they are removed from cart or not
+* Add multiple products to the cart and then validate specific product whether it is added to cart or not.
+* Logout from the app
+* "Reset the App" functionality to validate its working
 
 ## Test Report:
 * I have included the test report as well for an overview
