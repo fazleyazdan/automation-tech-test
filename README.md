@@ -32,6 +32,7 @@
 
 ## TODO: Automation of things
 
+* automate wether filters are working fine on product page
 * remove products from cart
 * add multiple products to the cart and then validate specific product wether it is added to cart or not.
 * logout from the app
