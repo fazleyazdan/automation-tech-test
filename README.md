@@ -29,3 +29,14 @@
 
 * To run all test cases Then run this command `npx cypress run`. 
 * It will run all the test case and will show the results on terminal
+
+## TODO: Automation of things
+
+* remove products from cart
+* add multiple products to the cart and then validate specific product wether it is added to cart or not.
+* logout from the app
+* "Reset the App" functionality to validate its functionality
+
+## Test Report:
+* i have included the test report as well for an overview
+* `cypress\reports\html\index.html`
