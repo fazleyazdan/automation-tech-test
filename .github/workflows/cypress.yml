@@ -1,0 +1,35 @@
+name: Run Cypress Tests Manually
+
+on:
+  workflow_dispatch: # Enables manual trigger from the GitHub Actions interface
+
+jobs:
+  cypress-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check out the code from the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16 # Use the Node.js version compatible with Cypress
+
+      # Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Run Cypress tests
+      - name: Run Cypress tests
+        run: npx cypress run
+
+      # Upload artifacts (screenshots/videos on failure)
+      - name: Upload Cypress Artifacts
+        if: failure() # Only upload artifacts on test failure
+        uses: actions/upload-artifact@v3
+        with:
+          name: cypress-artifacts
+          path: cypress/screenshots/,cypress/videos/
