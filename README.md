@@ -31,11 +31,11 @@
 
 ## TODO: Automation of things
 
-* Automate wether filters are working fine on product page
-* Remove products from cart & then validate wether they are removed from cart or not
-* Add multiple products to the cart and then validate specific product wether it is added to cart or not.
-* logout from the app
-* "Reset the App" functionality to validate its functionality
+* Automate whether filters are working fine on product page
+* Remove products from cart & then validate whether they are removed from cart or not
+* Add multiple products to the cart and then validate specific product whether it is added to cart or not.
+* Logout from the app
+* "Reset the App" functionality to validate its working
 
 ## Test Report:
 * I have included the test report as well for an overview
