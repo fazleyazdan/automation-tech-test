@@ -48,7 +48,7 @@ describe("QA Automation Tech Test Suit", ()=> {
         productObj.finishBtn()
 
         // validate whether we ordered the product or not
-        cy.get('h2.complete-header').should('have.text', 'Thank you for your order!');
+        cy.get('h2.complete-header').should('have.text', info.expected_result);
 
         })
     })
