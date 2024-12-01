@@ -25,12 +25,13 @@
 * Give this command `npx cypress run --spec "relative path of test file"`
 * e.g. `npx cypress run --spec "cypress\e2e\buyProduct.cy.js`
 
+* To run all test cases Then run this command `npx cypress run`. 
+* It will run all the test case and will show the results on terminal
+
 **Github Actions:**
 * To run tests through github actions:
    * navigate to actions and run the workflow on main branch.
 
-* To run all test cases Then run this command `npx cypress run`. 
-* It will run all the test case and will show the results on terminal
 
 ## TODO: Automation of things
 
